@@ -18,10 +18,10 @@ setup(
         'django',
         'django-annoying',
         'django-social-api>=0.1.1',
-        'facebook-sdk==1.0.0a0',
+        'facebook-sdk==2.0.0',
         'python-dateutil>=1.5',
     ],
-    dependency_links=['https://github.com/pythonforfacebook/facebook-sdk/tarball/master#egg=facebook-sdk-1.0.0a0'],
+    dependency_links=['https://github.com/pythonforfacebook/facebook-sdk/tarball/master#egg=facebook-sdk-2.0.0'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
