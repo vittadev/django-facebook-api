@@ -15,11 +15,11 @@ setup(
     include_package_data=True,
     zip_safe=False,  # because we're including media that Django needs
     install_requires=[
-        'django',
-        'django-annoying',
-        'django-social-api>=0.1.1',
+        # 'django',
+        # 'django-annoying',
+        # 'django-social-api>=0.1.1',
         'facebook-sdk==2.0.0',
-        'python-dateutil>=1.5',
+        # 'python-dateutil>=1.5',
     ],
     # dependency_links=['https://github.com/pythonforfacebook/facebook-sdk/tarball/master#egg=facebook-sdk-2.0.0'],
     classifiers=[
