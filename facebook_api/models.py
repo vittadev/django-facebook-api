@@ -32,7 +32,8 @@ from .decorators import atomic, reduce_data_amount
 from .signals import facebook_api_post_fetch
 
 try:
-    from django.db.models.related import RelatedObject as ForeignObjectRel
+    # from django.db.models.related import RelatedObject as ForeignObjectRel
+    from django.db.models.related import ManyToOneRel as ForeignObjectRel
 except ImportError:
     # django 1.8 +
     from django.db.models.fields.related import ForeignObjectRel
